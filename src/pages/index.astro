@@ -22,10 +22,9 @@ const notes = await getCollection('notes')
     <p class="subtitle"></p>
   </div>
   <p class="description">
-    Here should be some description for this small internet place.
-    And hopefully a better navigation.
+    Welcome to my digital garden, a small place on the internet where I share my thoughts and reflexions about nothing and everything.
   </p>
-  <ul>
+  <ul class="articles">
     {notes.map(note => <li><a href={`/${note.id}`}>{note.data.title}</a></li>)}
   </ul>
   <p class="credits">
