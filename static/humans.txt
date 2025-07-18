@@ -1,0 +1,7 @@
+This website is made Sacha, a 29 year old human being from Europe.
+
+The scrungly chibi on the home page was made by acidicchoco.
+The font used is Shantell Sans.
+The icons are hand-drawn by Sacha.
+
+The site is built using Zola and hosted by Deuxfleurs.
