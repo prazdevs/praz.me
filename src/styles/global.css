@@ -37,6 +37,10 @@ button:focus-visible {
   outline-offset: 0.10em;
 }
 
+li::marker {
+  content: "- ";
+}
+
 .sr-only {
   position: absolute;
   left: -10000px;

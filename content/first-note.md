@@ -1,5 +1,6 @@
 ---
 title: Human give me attention meow
+date: 2025-07-23
 ---
 
 Cat ipsum dolor sit amet, _thinking about you_ i'm joking it's food

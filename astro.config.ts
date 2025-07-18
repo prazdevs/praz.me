@@ -1,9 +1,7 @@
-import { defineConfig } from 'astro/config'
-import sitemap from '@astrojs/sitemap'
+import { defineConfig } from "astro/config";
+import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
-  site: 'https://praz.me',
-  integrations: [
-    sitemap()
-  ]
-})
+  site: "https://praz.me",
+  integrations: [sitemap()],
+});

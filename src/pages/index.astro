@@ -1,31 +1,45 @@
 ---
-import { Image } from 'astro:assets'
-import { getCollection } from 'astro:content'
-import chibi from '../assets/chibi.png'
-import Layout from '../components/Layout.astro'
+import { Image } from "astro:assets";
+import { getCollection } from "astro:content";
+import chibi from "../assets/chibi.png";
+import Layout from "../components/Layout.astro";
+import { formatDate } from "../utils/date";
 
-const notes = await getCollection('notes')
+const collection = await getCollection("notes");
+const notes = collection.toSorted((a, b) =>
+  b.data.date.valueOf() - a.data.date.valueOf(),
+);
 ---
 
 <Layout>
-  <div class="banner">
-    <Image
-      class="chibi"
-      loading="eager"
-      src={chibi}
-      densities={[1, 2]}
-      alt=''
-      height='200'
-      width='197'
-    />
-    <h1 class="title">I'm Sacha<sup><a href="https://en.pronouns.page/@praz" target="_blank">(they/any)</a></sup></h1>
-    <p class="subtitle"></p>
-  </div>
+  <Image
+    class="chibi"
+    loading="eager"
+    src={chibi}
+    densities={[1, 2]}
+    alt=""
+    height="200"
+    width="197"
+  />
+  <h1 class="title">
+    I'm Sacha<sup><a href="https://en.pronouns.page/@praz" target="_blank">(they/any)</a></sup>
+  </h1>
+  <p class="subtitle"></p>
   <p class="description">
-    Welcome to my digital garden, a small place on the internet where I share my thoughts and reflexions about nothing and everything.
+    Welcome to my digital garden, a small place on the internet where I share my
+    thoughts and reflexions about nothing and everything.
   </p>
   <ul class="articles">
-    {notes.map(note => <li><a href={`/${note.id}`}>{note.data.title}</a></li>)}
+    {
+      notes.map((note) => (
+        <li>
+          <date datetime={note.data.date.toISOString()}>
+            {formatDate(note.data.date)}
+          </date>
+          <a href={`/${note.id}`}>{note.data.title}</a>
+        </li>
+      ))
+    }
   </ul>
   <p class="credits">
     Scrungly chibi by <a href="https://bsky.app/profile/acidicchoco.bsky.social" target="_blank">acidicchoco</a>
@@ -33,17 +47,48 @@ const notes = await getCollection('notes')
 </Layout>
 
 <style>
-.chibi {
-  height: auto;
-  margin: 0 auto var(--space-s);
-}
+  .chibi {
+    height: auto;
+    margin: 0 auto var(--space-s);
+  }
 
-.title {
-  text-align: center;
-}
+  .title {
+    text-align: center;
+  }
 
-.credits {
-  text-align: center;
-  font-size: var(--font-size-s);
-}
+  .description {
+    margin-top: var(--space-l);
+  }
+
+  .articles {
+    margin: var(--space-xl) 0;
+    padding-left: 0;
+  }
+
+  .articles li {
+    margin-top: var(--space-s);
+    display: grid;
+    column-gap: var(--space-xs);
+  }
+
+  .articles date {
+    font-style: italic;
+    font-size: var(--font-size-s);
+    margin-top: var(--space-3xs)
+  }
+
+  .credits {
+    text-align: center;
+    font-size: var(--font-size-s);
+  }
+
+  @media screen and (min-width: 600px) {
+    .articles li {
+      grid-template-columns: 8ch auto;
+    }
+
+    .articles date {
+      text-align: end;
+    }
+  }
 </style>
