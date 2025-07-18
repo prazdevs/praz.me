@@ -4,10 +4,9 @@ html {
 }
 
 body {
-  max-width: min(52ch, 100%);
+  max-width: min(56ch, 100%);
   margin: auto;
   padding: var(--space-s);
-
 }
 
 ::selection {
@@ -35,6 +34,12 @@ a:focus-visible,
 button:focus-visible {
   outline: 3px solid var(--accent-color);
   outline-offset: 0.10em;
+}
+
+blockquote {
+  margin: 0 var(--space-2xs);
+  padding: 0 var(--space-2xs);
+  border-left: solid 0.15em var(--accent-color);
 }
 
 li::marker {
