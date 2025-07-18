@@ -10,9 +10,11 @@ export async function GET(context: APIContext) {
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
     site: context.site!,
-    items: notes.map(({ data, id }) => ({
-      ...data,
+    items: notes.map(({ data, id, rendered }) => ({
       link: `/${id}`,
+      title: data.title,
+      pubDate: data.date,
+      content: rendered?.html,
     })),
   })
 }
