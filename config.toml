@@ -1,0 +1,5 @@
+base_url = "https://praz.me"
+
+[markdown]
+external_links_target_blank = true
+external_links_no_referrer = true

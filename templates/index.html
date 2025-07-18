@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block title %}PraZ{% endblock title %}
+
+{% block head %}
+<style>
+  .chibi {
+    height: auto;
+    margin: 0 auto var(--space-s);
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .description {
+    margin-top: var(--space-l);
+  }
+
+  .articles {
+    margin: var(--space-xl) 0;
+    padding-left: 0;
+  }
+
+  .articles li {
+    margin-top: var(--space-s);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .articles time {
+    width: 10ch;
+    flex-shrink: 0;
+    font-style: italic;
+    font-size: var(--font-size-s);
+    margin-top: var(--space-3xs)
+  }
+
+  .credits {
+    text-align: center;
+    font-size: var(--font-size-s);
+  }
+
+  @media screen and (min-width: 600px) {
+    .articles li {
+      flex-direction: row;
+      gap: var(--space-xs);
+    }
+
+    .articles time {
+      text-align: end;
+    }
+  }
+</style>
+{% endblock head %}
+
+{% block content %}
+<img
+  src="/chibi_1x.webp"
+  srcset="/chibi_1x.webp 1x, /chibi_2x.webp 2x"
+  loading="eager"
+  alt=""
+  decoding="async"
+  fetchpriority="auto"
+  width="197"
+  height="200"
+  class="chibi"
+>
+<h1 class="title">
+  I'm Sacha<sup><a href="https://en.pronouns.page/@praz" target="_blank">(they/any)</a></sup>
+</h1>
+<p class="subtitle"></p>
+<p class="description">
+  Welcome to my digital garden, a small place on the internet where I share my
+  thoughts and reflexions about nothing and everything.
+</p>
+<ul class="articles">
+  {% for page in section.pages %}
+    <li>
+      <time datetime="{{ page.updated | date }}">
+        {{ page.updated | date(format="%b %e, %Y") }}
+      </time>
+      <a href="{{ page.path }}">{{ page.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+{% endblock content %}
+

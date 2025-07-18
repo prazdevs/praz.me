@@ -1,9 +1,3 @@
-.astro/
-.dfl/
-dist/
-node_modules/
-
-npm-debug.log*
-pnpm-debug.log*
 .DS_Store
-
+.dfl/
+public/

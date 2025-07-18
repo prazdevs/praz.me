@@ -1,6 +1,6 @@
 ---
 title: Human give me attention meow
-date: 2025-07-23
+updated: 2025-07-03
 ---
 
 Cat ipsum dolor sit amet, _thinking about you_ i'm joking it's food
@@ -11,7 +11,7 @@ destroy dog yet my left donut is missing, as is my right so catty
 ## Sniff sniff
 
 Cat jumps and falls onto the couch purrs and wakes up in a new
-[dimension filled with kitty litter](http://duckduckgo.com) meow meow
+[dimension filled with kitty litter](@/second-note.md) meow meow
 yummy there is a bunch of cats hanging around eating catnip ooooh
 feather moving feather!, **kitten is playing with dead mouse**. Swat
 turds around the house sniff catnip and act crazy run around the house

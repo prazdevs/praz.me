@@ -1,6 +1,6 @@
 ---
 title: Make plans to dominate world and then take a nap
-date: 2025-05-15
+updated: 2025-05-15
 ---
 
 Cat ipsum dolor sit amet, plan steps for world domination so scratch
