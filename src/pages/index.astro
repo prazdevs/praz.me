@@ -33,9 +33,9 @@ const notes = collection.toSorted((a, b) =>
     {
       notes.map((note) => (
         <li>
-          <date datetime={note.data.date.toISOString()}>
+          <time datetime={note.data.date.toISOString()}>
             {formatDate(note.data.date)}
-          </date>
+          </time>
           <a href={`/${note.id}`}>{note.data.title}</a>
         </li>
       ))
@@ -71,7 +71,7 @@ const notes = collection.toSorted((a, b) =>
     flex-direction: column;
   }
 
-  .articles date {
+  .articles time {
     width: 10ch;
     flex-shrink: 0;
     font-style: italic;
@@ -90,7 +90,7 @@ const notes = collection.toSorted((a, b) =>
       gap: var(--space-xs);
     }
 
-    .articles date {
+    .articles time {
       text-align: end;
     }
   }
