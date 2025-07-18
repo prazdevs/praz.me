@@ -67,11 +67,13 @@ const notes = collection.toSorted((a, b) =>
 
   .articles li {
     margin-top: var(--space-s);
-    display: grid;
-    column-gap: var(--space-xs);
+    display: flex;
+    flex-direction: column;
   }
 
   .articles date {
+    width: 10ch;
+    flex-shrink: 0;
     font-style: italic;
     font-size: var(--font-size-s);
     margin-top: var(--space-3xs)
@@ -84,7 +86,8 @@ const notes = collection.toSorted((a, b) =>
 
   @media screen and (min-width: 600px) {
     .articles li {
-      grid-template-columns: 8ch auto;
+      flex-direction: row;
+      gap: var(--space-xs);
     }
 
     .articles date {
