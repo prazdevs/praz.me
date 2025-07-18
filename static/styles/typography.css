@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  margin: 0 0 var(--space-m);
+  margin: 0 0 var(--space-l);
   font-size: var(--font-size-2xl);
   font-weight: var(--font-weight-bold);
   line-height: var(--leading-tight);

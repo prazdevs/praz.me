@@ -37,7 +37,7 @@ button:focus-visible {
 }
 
 blockquote {
-  margin: 0 var(--space-2xs);
+  margin: 0 var(--space-3xs);
   padding: 0 var(--space-2xs);
   border-left: solid 0.15em var(--accent-color);
 }
