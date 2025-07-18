@@ -8,18 +8,20 @@ const notes = await getCollection('notes')
 ---
 
 <Layout>
-  <div class='banner'>
+  <div class="banner">
     <Image
-      class='chibi'
+      class="chibi"
+      loading="eager"
       src={chibi}
       densities={[1, 2]}
       alt=''
       height='200'
       width='197'
     />
-    <h1 class='title'>I'm Sacha<sup>(they/any)</sup></h1>
+    <h1 class="title">I'm Sacha<sup><a href="https://en.pronouns.page/@praz" target="_blank">(they/any)</a></sup></h1>
+    <p class="subtitle"></p>
   </div>
-  <p class='description'>
+  <p class="description">
     Here should be some description for this small internet place.
     And hopefully a better navigation.
   </p>
@@ -27,7 +29,7 @@ const notes = await getCollection('notes')
     {notes.map(note => <li><a href={`/${note.id}`}>{note.data.title}</a></li>)}
   </ul>
   <p class="credits">
-    Scrungly chibi by <a href='https://bsky.app/profile/acidicchoco.bsky.social' target='_blank'>acidicchoco</a>
+    Scrungly chibi by <a href="https://bsky.app/profile/acidicchoco.bsky.social" target="_blank">acidicchoco</a>
   </p>
 </Layout>
 
