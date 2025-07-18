@@ -1,4 +1,5 @@
 .astro/
+.dfl/
 dist/
 node_modules/
 
