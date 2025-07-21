@@ -14,7 +14,7 @@ That's the definition of the web according to [The Free Encyclopedia](https://si
 
 Static pages. Text. Hyperlinks. Low quality images... Somtimes they made sense, and sometimes it was an absolute mess of poor design and questionnable "user experience". And yet, it didn't matter.
 
-I learnt how to make efficient inputs in search engines to be offered web pages with content I would be looking for. Followed by a game of jumping from page to page, clicking links and exploring content --- most of the time it was video game tips or cheat codes I was looking for.
+I learnt how to make efficient inputs in search engines to be presented web pages with content I would be looking for. Followed by a game of jumping from page to page, clicking links and exploring content --- most of the time it was video game tips or cheat codes I was looking for.
 
 Some websites I was visiting more often than others. Eventually, I got used to ugly designs because they were simple. Ugly? maybe... Simple? without a doubt. The web was "digestible" by then.
 
