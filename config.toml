@@ -1,5 +1,7 @@
 base_url = "https://praz.me"
-author = "PraZ"
+
+title = "praz"
+author = "praz"
 generate_feeds = true
 feed_filenames = ["atom.xml", "rss.xml"]
 
