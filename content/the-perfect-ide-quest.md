@@ -22,7 +22,7 @@ On its own, VSCode is pretty empty: it is a platform, and with it come **extensi
 
 VSCode was satisfying to me. It is reasonably fast (compared to full blown IDEs), easy to install on all sorts of machines, and extendable enough to make it really comfortable, to make it my own. I had no reason to change for something else. Until AI happened. 
 
-For those unaware, [I firmly reject AI](@/resisting-ai.md). And having it shoved down my throat the way VSCode did left my a very bitter taste of the IDE I enjoyed so much.
+For those unaware, [I firmly reject AI](@/on-resisting-ai.md). And having it shoved down my throat the way VSCode did left my a very bitter taste of the IDE I enjoyed so much.
 
 ## Pluggable IDEs: a world of extensions
 
