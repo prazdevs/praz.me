@@ -1,5 +1,5 @@
 ---
-title: "Rejecting AI and what makes us human"
+title: "Resisting AI and what makes us human"
 date: 2024-12-26
 updated: 2024-12-26
 ---
