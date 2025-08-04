@@ -22,7 +22,7 @@ On its own, VSCode is pretty empty: it is a platform, and with it come **extensi
 
 VSCode was satisfying to me. It is reasonably fast (compared to full blown IDEs), easy to install on all sorts of machines, and extendable enough to make it really comfortable, to make it my own. I had no reason to change for something else. Until AI happened. 
 
-For those unaware, [I firmly reject AI](@/on-resisting-ai.md). And having it shoved down my throat the way VSCode did left my a very bitter taste of the IDE I enjoyed so much. I eventually found a way to disable any sort of AI integration, but I took the time to realize the amount of unwanted things VSCode pushes in your face constantly (liveshare, copilot). So the journey carried on...
+For those unaware, [I firmly reject AI](@/on-resisting-ai.md). And having it shoved down my throat the way VSCode was not of my liking. I eventually found a way to disable any sort of AI integration, but I took the time to realize the amount of unwanted things VSCode pushes in your face constantly (liveshare, copilot). So the journey carried on...
 
 I looked into the many new editors, most of them still being WIPs or early alpha stage. [Lapce](https://lap.dev/lapce) was interesting, as a rust-based performance focused text-editor, but it was lacking too many features and its development is still slow that I hardly believe it'll ever catch up with other editors. I considered [Zed](https://zed.dev/) during its very early stage, but it lacked the customization I wanted, and the AI-first direction it seems to be taking puts me off trying it again.
 
