@@ -8,11 +8,11 @@ I grew up with the internet. From the Windows95 family computer to my smartphone
 
 > The World Wide Web ("WWW" or "The Web") is the part of the Internet that contains websites and webpages.
 
-That's the definition of the web according to [The Free Encyclopedia](https://simple.wikipedia.org/wiki/World_Wide_Web). Using Wikipedia as a reference here holds a special meaning: it is the website I remember the most when I think of what the web was back then. But what do I really remember of "the old web"?
+That's the definition of the web according to [The Free Encyclopedia](https://simple.wikipedia.org/wiki/World_Wide_Web). I'm using Wikipedia for a reason: it is the website I remember the most when I think of what the web was back then. But what do I really remember of "the old web"?
 
 ## The web of my childhood
 
-Static pages. Text. Hyperlinks. Low quality images... Somtimes they made sense, and sometimes it was an absolute mess of poor design and questionnable "user experience". And yet, it didn't matter.
+Static pages. Text. Hyperlinks. Low quality images... Somtimes they made sense, and sometimes it was an absolute mess. Poor design and questionnable "user experience", yet it didn't matter.
 
 I learnt how to make efficient inputs in search engines to be presented web pages with content I would be looking for. Followed by a game of jumping from page to page, clicking links and exploring content --- most of the time it was video game tips or cheat codes I was looking for.
 
