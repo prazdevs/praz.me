@@ -56,6 +56,23 @@ And then there are what I would name "Quality of Life" extensions. They exist to
 
 And then... there are themes.
 
-<!-- ## Coding in (pleasing and accessible) colors -->
+## Coding in (pleasing and accessible) colors
 
-<!-- I fell in love with Sarah Drasner's [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl). I really liked it, the choice of colors for the languages I was using really helped with reading code faster.  -->
+I loved trying new themes. And I just love colors overall and the way we can play with them. It's fascinating how a set of colors can change everything in my developer experience.
+
+I fell in love with Sarah Drasner's [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl). I really liked it, the choice of colors for the languages I was using really helped with reading code faster. Syntax highlighting colors were great for web technologies (HTML, CSS, JS).
+
+I played around with other themes such as Nord, Monokai, Darcula... But I always went back to Night Owl. It's hard to switch themes. Your eyes and brain get used to seeing specific keywords in specific colors.
+
+There was one exception: [Catppuccin](https://catppuccin.com/). Catppuccin is a theme, made of 4 palettes (flavors) of pastel colors. And it has ports. Lots of ports. This allowed me to have the same theme in all the tools I use (IDE, terminals...).
+
+## TL;DR, what's in my IDE?
+
+As of 2025, here are all the things in my IDE:
+- VSCodium platform
+- MonoLisa font (with cursive italics for comments)
+- Catppuccin theme & icons
+- Some language support and QOL extensions
+- A very opinionated config
+
+You can find almost everything in my [dotfiles](https://github.com/prazdevs/dotfiles/blob/main/programs/vscode.nix) in nix format (I use [Home Manager](https://github.com/nix-community/home-manager)). May this inspire you to explore customization, and make your IDE truly yours.
